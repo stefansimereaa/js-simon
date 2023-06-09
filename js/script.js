@@ -64,5 +64,5 @@ function checkNumbers() {
     alert('I numeri inseriti non sono corretti!');
   }
 }
-// Aggiungi l'evento di click al pulsante
+// Click al pulsante
 button.addEventListener('click', checkNumbers);
