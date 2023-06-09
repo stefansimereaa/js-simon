@@ -1,0 +1,9 @@
+.container{
+    height: 500px;
+    margin: 100px auto;
+}
+
+#countdown{
+    color: red;
+    font-size: 40px;
+}

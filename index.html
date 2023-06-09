@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css' integrity='sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==' crossorigin='anonymous'/>
+    <title>Simon Says</title>
+</head>
+<body>
+    <main>
+        <div class="container text-center">
+            <h3 id="countdown"></h3>
+            <h2 class="mb-5">Memorizza i numeri!</h2>
+            <h3 class="mb-5" id="numbers"></h3>
+            <div class="container-sm justify-content-center d-flex">
+                <div class="col-6">
+                    <div class="input-group mb-5 align-items-center">
+                        <label class="me-3" for="number1">Numero 1:</label>
+                        <input type="number" class="form-control user-input d-none" name="number" id="number1" min="1" max="100">
+                    </div>
+                    <div class="input-group mb-5 align-items-center">
+                        <label class="me-3" for="number1">Numero 2:</label>
+                        <input type="number" class="form-control user-input d-none" name="number" id="number2" min="1" max="100">
+                    </div>
+                    <div class="input-group mb-5 align-items-center">
+                        <label class="me-3" for="number1">Numero 3:</label>
+                        <input type="number" class="form-control user-input d-none" name="number" id="number3" min="1" max="100">
+                    </div>
+                    <div class="input-group mb-5 align-items-center">
+                        <label class="me-3" for="number1">Numero 4:</label>
+                        <input type="number" class="form-control user-input d-none" name="number" id="number4" min="1" max="100">
+                    </div>
+                    <div class="input-group mb-5 align-items-center">
+                        <label class="me-3" for="number1">Numero 5:</label>
+                        <input type="number" class="form-control user-input d-none" name="number" id="number5" min="1" max="100">
+                    </div>
+                </div>
+            </div>
+              <button class="btn btn-primary mt-3" id="control">Verifica Numeri</button>
+        </div>
+    </main>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
